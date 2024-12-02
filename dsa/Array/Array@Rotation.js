@@ -1,7 +1,6 @@
 // region ROTATION
-
 /**
- * ROTATION WITH NESTED FOR LOOP
+ * RIGHT ROTATION WITH NESTED FOR LOOP
  * Rotation of the array using nested for loop 
  * @param {*} arr 
  * @param {*} d 
@@ -35,13 +34,41 @@ function rotateArr(arr, d) {
 
 
 /**
- * ROTATE ARRAY WITH TEMP ARRAY
+ * LEFT ROTATION WITH NESTED FOR LOOP
+ * Rotation of the array using nested for loop
+ * @param {*} arr 
+ * @param {*} d 
+ */
+function rotateLeftArrWithNestedLoop(arr, d) {
+    let N = arr?.length;
+    const firstElementIndex = 0;
+    const lastElementIndex = N - 1;
+
+    // Peeking the first element of the array
+    for (let i = 0; i < d; i++) {
+        const firstElement = arr[firstElementIndex];
+        // console.log('HERE IS I -- ', firstElement);
+
+        // Shifting elements by one position to the left
+        for (let j = 0; j < lastElementIndex; j++) {
+            // console.log(arr[j], arr[j + 1]);
+            arr[j] = arr[j + 1];
+        }
+
+        // assign the first element to the last position
+        arr[lastElementIndex] = firstElement;
+    }
+}
+
+
+/**
+ * RIGHT ROTATE ARRAY WITH TEMP ARRAY
  * The temp array rotation
  * @param {*} arr 
  * @param {*} d 
  */
 // region Temp Array
-function rotateWithTempArr(arr, d) {
+function rotaterrRightWithTempArr(arr, d) {
     let n = arr.length; // n = 6; d =2
 
     // Storing rotated version of array
@@ -68,6 +95,35 @@ function rotateWithTempArr(arr, d) {
         arr[i] = temp[i];
     }
 }
+
+/**
+ * LEFT ROTATE ARRAY WITH TEMP ARRAY
+ * The temp array rotation
+ * @param {*} arr 
+ * @param {*} d 
+ */
+function rotateLeftWithTempArr(arr, d) {
+    let N = arr.length;
+
+    // Storing rotated version of array
+    const tempArr = new Array(N);
+
+    // copy first elements parts to temp array
+    for (let i = 0; i < N; i++) {
+        tempArr[i] = arr[d + i];
+    }
+
+    // copy last elements parts to temp array
+    for (let j = 0; j < d; j++) {
+        tempArr[N - d + j] = arr[j];
+    }
+
+    // copy temp array to original array
+    for (let k = 0; k < N; k++) {
+        arr[k] = tempArr[k];
+    }
+}
+
 
 /**
  * ROTATE RIGHT WITH DECLARATIVE WAY
@@ -101,5 +157,5 @@ function rotateLeftElementDeclarative(arr, d) {
 let arr = [1, 2, 3, 4, 5, 6];
 let d = 2;
 console.log('DEFAULT - ', arr);
-rotateLeftElementDeclarative(arr, d);
+rotateLeftWithTempArr(arr, d);
 console.log('ROTATE - ', arr);
