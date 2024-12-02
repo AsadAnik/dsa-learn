@@ -1,11 +1,12 @@
 // region ROTATION
 
 /**
- * ONE BY ONE  ROTATION 
+ * ROTATION WITH NESTED FOR LOOP
+ * Rotation of the array using nested for loop 
  * @param {*} arr 
  * @param {*} d 
  */
-// region One By One
+// region Nested Loop
 function rotateArr(arr, d) {
     let n = arr.length;
 
@@ -32,6 +33,13 @@ function rotateArr(arr, d) {
     }
 }
 
+
+/**
+ * ROTATE ARRAY WITH TEMP ARRAY
+ * The temp array rotation
+ * @param {*} arr 
+ * @param {*} d 
+ */
 // region Temp Array
 function rotateWithTempArr(arr, d) {
     let n = arr.length; // n = 6; d =2
@@ -43,14 +51,14 @@ function rotateWithTempArr(arr, d) {
     for (let i = 0; i < d; i++) { // temp[0] = 5; temp[1] = 6;
         // [1, 2, 3, 4, 5, 6] = loop in [5, 6] = (lastLength - 2) + 0(i) = 5
         // [1, 2, 3, 4, 5, 6] = loop in [5, 6] = (lastLength - 2) + 1(i) = 6
-        temp[i] = arr[n - d + i]; 
+        temp[i] = arr[n - d + i];
     }
 
     // Copy the first n - d elements to the back of temp
     for (let i = 0; i < n - d; i++) {// loop limit = (i < listLength - 2) = i < 4;
         // skip first 3 items (i + 2) [5, 6, (PEEK)] = (PEEK) = arr[i]
         // [5, 6, 1, 2, 3, 4]
-        temp[i + d] = arr[i]; 
+        temp[i + d] = arr[i];
     }
 
     // Copying the elements of temp in arr
@@ -61,9 +69,37 @@ function rotateWithTempArr(arr, d) {
     }
 }
 
+/**
+ * ROTATE RIGHT WITH DECLARATIVE WAY
+ * @param {*} arr 
+ * @param {*} d 
+ */
+// region Right Declarative
+function rotateRightElementDeclarative(arr, d) {
+    for (let i = 0; i < d; i++) {
+        const lastElement = arr.pop();
+        arr.unshift(lastElement);
+    }
+}
+
+/**
+ * ROTATE LEFT WITH DECLARATIVE WAY
+ * @param {*} arr 
+ * @param {*} d 
+ */
+//  region Left Declarative
+function rotateLeftElementDeclarative(arr, d) {
+    for (let i = 0; i < d; i++) {
+        const firstElement = arr.shift();
+        arr.push(firstElement);
+    }
+}
+
+
+// region TEST
+// Testing the function
 let arr = [1, 2, 3, 4, 5, 6];
 let d = 2;
-
-rotateWithTempArr(arr, d);
-
-console.log(arr.join(' '));
+console.log('DEFAULT - ', arr);
+rotateLeftElementDeclarative(arr, d);
+console.log('ROTATE - ', arr);
