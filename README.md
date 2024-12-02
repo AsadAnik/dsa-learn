@@ -131,3 +131,14 @@ This guidline will help you to learn data structures and algorithms in a systema
     - **HackerRank** (Segment Trees, DP, and Graph algorithms).
 
 ---
+
+### Array (Data Structure)
+
+- Reverse the array.
+
+    [See Reverses Examples · AsadAnik/dsa-learn](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Reverse.js)
+    
+- Rotation of the arrray.
+    
+    [See Rotations Examples · AsadAnik/dsa-learn](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Rotation.js)
+
