@@ -35,6 +35,8 @@ Knowing DSA can help you perform better in job interviews and land great jobs in
 
 [DSA Tutorial w3-School](https://www.w3schools.com/dsa/index.php)
 
+---
+
 ### Guides with roadmap
 This guidline will help you to learn data structures and algorithms in a systematic and efficient manner.
 
@@ -71,6 +73,8 @@ This guidline will help you to learn data structures and algorithms in a systema
 - **Big O Notation**: Understand the time and space complexity for common algorithms and data structures.
 - **Pattern-Based Problem Solving**: Identify common patterns in problems (e.g., sliding window, two-pointer) to solve them faster.
 
+---
+
 ### **Phase 1 To-Do List**
 
 1. **Arrays**: Manipulations, sliding window, two-pointer problems.
@@ -81,6 +85,8 @@ This guidline will help you to learn data structures and algorithms in a systema
 6. **Searching Algorithms**: Linear and binary search.
 7. **Recursion**: Basics of recursion, factorial, Fibonacci, Tower of Hanoi.
 8. **Big-O Complexity**: Time and space analysis.
+
+---
 
 ### **Phase 2 To-Do List**
 
@@ -101,6 +107,8 @@ This guidline will help you to learn data structures and algorithms in a systema
     - **GeeksforGeeks** (Tons of articles and problems related to trees, graphs, hashing).
     - **HackerRank** (For practice on Stacks, Queues, Hash Maps, Trees, etc.).
 
+---
+
 ### **Phase 3 To-Do List**
 
 1. **Tries**: Implement Tries, word search, prefix matching, autocomplete.
@@ -112,8 +120,6 @@ This guidline will help you to learn data structures and algorithms in a systema
     - Dijkstra’s, Bellman-Ford, Floyd-Warshall, Topological Sort, SCC.
 5. **Advanced Problem Solving**: Greedy algorithms, MST (Kruskal/Prim), BIT, Union-Find, Kahn's Algorithm.
 
----
-
 ### **Resources for Phase 3**
 
 - **Books**:
@@ -123,3 +129,5 @@ This guidline will help you to learn data structures and algorithms in a systema
     - **LeetCode** (Hard-level problems related to DP, Graphs, and Tries).
     - **Codeforces** (Excellent for advanced algorithmic problem-solving).
     - **HackerRank** (Segment Trees, DP, and Graph algorithms).
+
+---
