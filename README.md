@@ -134,11 +134,7 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 ### Array (Data Structure)
 
-- Reverse the array.
-
-    [See Reverses Examples · AsadAnik/dsa-learn](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Reverse.js)
+- Reverse the array -> [[ See Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Reverse.js)
     
-- Rotation of the arrray.
-    
-    [See Rotations Examples · AsadAnik/dsa-learn](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Rotation.js)
+- Rotation of the arrray -> [[ See Rotations Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Rotation.js)
 
