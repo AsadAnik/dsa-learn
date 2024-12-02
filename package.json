@@ -1,0 +1,16 @@
+{
+  "name": "dsa-learn",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:array:reverse": "nodemon dsa/Array/Array@Reverse.js",
+    "start:array:rotation": "nodemon dsa/Array/Array@Rotation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
