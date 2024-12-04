@@ -6,7 +6,8 @@
     "start:array:reverse": "nodemon dsa/Array/Array@Reverse.js",
     "start:array:rotation": "nodemon dsa/Array/Array@Rotation.js",
     "start:array:manipulate": "nodemon dsa/Array/Array@Manipulate.js",
-    "start:array:findMinMax": "nodemon  dsa/Array/Array@FindMinMax.js"
+    "start:array:findMinMax": "nodemon  dsa/Array/Array@FindMinMax.js",
+    "start:array:findSecondMax": "nodemon dsa/Array/Array@FindSecondMax.js"
   },
   "keywords": [],
   "author": "",
