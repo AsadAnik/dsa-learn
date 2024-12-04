@@ -22,6 +22,7 @@ function findMinMaxElement(arr) {
         }
     }
 
+    // returned min max element.. 
     return { minElement, maxElement };
 }
 
