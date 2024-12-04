@@ -37,6 +37,7 @@ function insertElement(arr: number[], value: number): void {
     arr[lastIndex] = value;
 }
 
+
 /**
  * INSERT ELEMENT IN THE ARRAY AT ANY POSITION
  * It will be crating extra space in the end of the array
@@ -67,15 +68,17 @@ function insertElementToAnyPosition(arr: (string | any)[], value: any, positionI
     // Return the new array
     return newArr;
 }
+
+
 /**
  * DELETE ELEMENT IN THE ARRAY
  * Delete element by any elment given to the function
  * @param {*} arr 
  * @param {*} value 
  */
-function deleteAnyElement(arr: [], value: number): void {
+function deleteAnyElement(arr: [], value: number): void | number {
     // Find the index of the element to be deleted
-    const arraySize: number = arr.length - 1;
+    const arraySize: number = arr.length;
 
     // Function for finding the index of the element to be deleted
     function findElementIndex(arr: [], arrSize: number, value: number): number {
@@ -92,8 +95,13 @@ function deleteAnyElement(arr: [], value: number): void {
     // Tried to found the index becuase have to shifting from found index
     const foundIndex: number = findElementIndex(arr, arraySize, value);
 
+    if (foundIndex === -1) {
+        console.log("Element not found!");
+        return value;
+    }
+
     // Have to shifting the element to the left
-    for (let i: number = foundIndex; i < arraySize; i++) {
+    for (let i: number = foundIndex; i < arraySize - 1; i++) {
         arr[i] = arr[i + 1];
     }
 
@@ -104,10 +112,11 @@ function deleteAnyElement(arr: [], value: number): void {
 
 // Try with findElement...
 let myArray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const value: number = 6;
+const value: number = 1;
 
 deleteAnyElement(myArray as [], value);
-console.log('New Element Added to the array here - ', myArray);
+
+console.log('Elements after delete - ', myArray);
 
 // const index = findElement(myArr, key);
 
