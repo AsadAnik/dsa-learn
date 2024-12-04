@@ -143,3 +143,11 @@ This guidline will help you to learn data structures and algorithms in a systema
 - Find Min Max elements -> [[ See Min Max elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindMinMax.ts)
 
 - Find the Second Max/Large element -> [[ See Second Max/Large elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindSecondMax.ts)
+
+---
+
+### Run Our TypeScript Code with Deno (Runtime):
+Deno is the fastest Runtime for TypeScript. And it supports TypeScript out of the box without any additional configuration. Just plug and play.
+```bash
+deno task <TASK_COMMAND_NAME_OF_DENO-JSON>
+```

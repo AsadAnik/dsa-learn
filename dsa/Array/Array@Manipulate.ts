@@ -101,6 +101,7 @@ function deleteAnyElement(arr: [], value: number): void {
     arr.length -= 1;
 }
 
+
 // Try with findElement...
 let myArray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const value: number = 6;
