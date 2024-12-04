@@ -3,7 +3,7 @@
  * RESERVE AN ARRAY (For Loop)
  * @param {*} arr 
  */
-function reverseForLoopArr(arr) {
+function reverseForLoopArr(arr: number[]): void {
     let N = arr.length - 1;
 
     // With For Loop..
@@ -28,11 +28,11 @@ function reverseForLoopArr(arr) {
  * REVERSE AN ARRAY (While Loop)
  * @param {*} arr 
  */
-function reverseWhileLoopArr(arr) {
+function reverseWhileLoopArr(arr: number[]): void {
     // With While Loop..
     // start index will be 0 and end index will be arr.length - 1
-    let startIndex = 0;
-    let endIndex = arr.length - 1;
+    let startIndex: number = 0;
+    let endIndex: number = arr.length - 1;
 
     while (startIndex < endIndex) {
         // swap the elements, i.e. swap(arr[start], arr[end])
@@ -56,7 +56,7 @@ function reverseWhileLoopArr(arr) {
  * @param {
  * } arr 
  */
-function reverseInModernnWay(arr) {
+function reverseInModernnWay(arr: number[]): void {
     // Declarative Way..
     // With Modern Way.. the reverse() method reverses an array in place.
     // The first array element becomes the last, and the last array element becomes the first.
@@ -67,7 +67,7 @@ function reverseInModernnWay(arr) {
 
 // region TEST
 // Testing the function
-const arr = [1, 2, 3, 4, 5, 6];
-console.log('BEFORE - ', arr);
-reverseForLoopArr(arr);
-console.log('AFTER - ', arr);
+const myArr: number[] = [1, 2, 3, 4, 5, 6];
+console.log('BEFORE - ', myArr);
+reverseForLoopArr(myArr);
+console.log('AFTER - ', myArr);

@@ -1,19 +1,23 @@
 {
   "name": "dsa-learn",
   "version": "1.0.0",
+  "module": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:array:reverse": "nodemon dsa/Array/Array@Reverse.js",
-    "start:array:rotation": "nodemon dsa/Array/Array@Rotation.js",
-    "start:array:manipulate": "nodemon dsa/Array/Array@Manipulate.js",
-    "start:array:findMinMax": "nodemon  dsa/Array/Array@FindMinMax.js",
-    "start:array:findSecondMax": "nodemon dsa/Array/Array@FindSecondMax.js"
+    "start:array:reverse": "nodemon dsa/Array/Array@Reverse.ts",
+    "start:array:rotation": "nodemon dsa/Array/Array@Rotation.ts",
+    "start:array:manipulate": "nodemon dsa/Array/Array@Manipulate.ts",
+    "start:array:findMinMax": "nodemon  dsa/Array/Array@FindMinMax.ts",
+    "start:array:findSecondMax": "nodemon dsa/Array/Array@FindSecondMax.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "@types/typescript": "^0.4.29",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }

@@ -5,13 +5,13 @@
  * @param {*} myArr 
  * @returns 
  */
-function findSecondLargestValue2(myArr) {
-    const arrSize = myArr.length;
-    const lastIndex = arrSize - 1;
+function findSecondLargestValue2(myArr: number[]): number {
+    const arrSize: number = myArr.length;
+    const lastIndex: number = arrSize - 1;
 
     // initilized supposed secondMax and maxValue
-    let secondMax = myArr[0];
-    let maxVal = myArr[lastIndex];
+    let secondMax: number = myArr[0];
+    let maxVal: number = myArr[lastIndex];
 
     // Loop to find the max value
     for (let i = 0; i < arrSize; i++) {
@@ -40,13 +40,13 @@ function findSecondLargestValue2(myArr) {
  * @param {*} myArr 
  * @returns 
  */
-function findSecondLargestValue(myArr) {
-    const arrSize = myArr.length;
-    const lastIndex = arrSize - 1;
+function findSecondLargestValue(myArr: number[]): number {
+    const arrSize: number = myArr.length;
+    const lastIndex: number = arrSize - 1;
 
     // initilized supposed secondMax and maxValue
-    let secondMax = myArr[0];
-    let maxVal = myArr[lastIndex];
+    let secondMax: number = myArr[0];
+    let maxVal: number = myArr[lastIndex];
 
     // loop through the array
     // compare the value with max value, if the value is greater than max value
@@ -67,6 +67,6 @@ function findSecondLargestValue(myArr) {
 }
 
 // Test Cases to Run..
-const myArr = [3, 5, 7, 1, 4];
-const result = findSecondLargestValue(myArr);
+const myArr: number[] = [3, 5, 7, 1, 4];
+const result: number = findSecondLargestValue(myArr);
 console.log('Second Max - ', result);
