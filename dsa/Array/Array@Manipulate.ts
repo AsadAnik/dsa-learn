@@ -49,24 +49,22 @@ function insertElement(arr: number[], value: number): void {
  * @returns 
  */
 // region Insert Item Any Position
-function insertElementToAnyPosition(arr: (string | any)[], value: any, positionIndex: number): number[] {
+function insertElementToAnyPosition(arr: number[], value: number, positionIndex: number): number[] {
     if (!value) return arr;
 
-    // Create a new array with increased length
-    const newArr = [...arr, undefined];
     // last index after increment of the array size
-    const lastIndex = newArr.length - 1;
+    const lastIndex: number = arr.length - 1;
 
     // Shifting the element to the right
     for (let i = lastIndex; i > positionIndex; i--) {
-        newArr[i] = newArr[i - 1];
+        arr[i] = arr[i - 1];
     }
     
     // Adding the element into the specified position
-    newArr[positionIndex] = value;
+    arr[positionIndex] = value;
 
     // Return the new array
-    return newArr;
+    return arr;
 }
 
 
@@ -114,14 +112,8 @@ function deleteAnyElement(arr: [], value: number): void | number {
 let myArray: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const value: number = 1;
 
-deleteAnyElement(myArray as [], value);
+// deleteAnyElement(myArray as [], value);
+insertElementToAnyPosition(myArray, 10, 2);
+console.log('Elements after insert - ', myArray);
 
-console.log('Elements after delete - ', myArray);
-
-// const index = findElement(myArr, key);
-
-// if (index === -1) {
-//     console.log(`Element ${key} is not found`);
-// } else {
-//     console.log(`Element ${key} is found at index ${index}`);
-// }
+// console.log('Elements after delete - ', myArray);
