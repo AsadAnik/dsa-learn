@@ -4,6 +4,7 @@
  * @param {*} arr 
  * @param {*} key 
  */
+// region Linear Search
 function findElement(arr, key) {
     const N = arr.length;
 
@@ -25,6 +26,7 @@ function findElement(arr, key) {
  * @param {*} value 
  * @param {*} position 
  */
+// region Insert Item End
 function insertElement(arr, value) {
     if (!value) return;
     // Increaments the length for adding element
@@ -46,12 +48,12 @@ function insertElement(arr, value) {
  * @param {*} positionIndex 
  * @returns 
  */
+// region Insert Item Any Position
 function insertElementToAnyPosition(arr, value, positionIndex) {
     if (!value) return;
 
     // Increaments the length for adding element
     arr.length += 1;
-
     // last index after increment of the array size
     const lastIndex = arr.length - 1;
 
