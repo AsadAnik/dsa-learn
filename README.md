@@ -134,22 +134,12 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 ### Array (Data Structure)
 
-- Reverse the array 
-
-    -> [[ See Reverse Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Reverse.js)
+- Reverse the array -> [[ See Reverse Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Reverse.js)
     
-- Rotation of the arrray 
+- Rotation of the arrray -> [[ See Rotation Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Rotation.js)
 
-    -> [[ See Rotation Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Rotation.js)
+- Manipulation of the array -> [[ See Manipulation Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Manipulate.js)
 
-- Manipulation of the array 
+- Find Min Max elements -> [[ See Min Max elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindMinMax.js)
 
-    -> [[ See Manipulation Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40Manipulate.js)
-
-- Find Min Max elements 
-
-    -> [[ See Min Max elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindMinMax.js)
-
-- Find the Second Max/Large element 
-
-    -> [[ See Second Max/Large elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindSecondMax.js)
+- Find the Second Max/Large element -> [[ See Second Max/Large elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindSecondMax.js)
