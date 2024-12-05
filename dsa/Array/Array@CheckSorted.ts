@@ -1,23 +1,53 @@
 /**
  * CHECK THE ARRAY IS SORTED OR NOT
+ * This will only checks the array is sorted on ascending order.
+ * Time Complexity: O(n) | Space Complexity: O(1)
  * @param arr 
  */
-function isArraySorted(arr: number[]): boolean {
+function isArraySortedAsc(arr: number[]): boolean {
     const arrSize: number = arr.length;
 
-    // Write your Code here..
-    console.log('ARRAY SIZE - ', arrSize);
+    for (let i:number = 0; i < arrSize; i++) {
+        // Check Ascending Order In Array Elements..
+        if (arr[i] > arr[i + 1]) {
+            return false;
+        }
+    }
 
-    return false;
+    return true;
 }
+
+
+/**
+ * CHECK THE ARRAY IS SORTED OR NOT ENTIRELY
+ * This will checks all aspacts of sorted array.
+ * Time Complexity: O(n) | Space Complexity: O(1)
+ * @param arr 
+ * @returns 
+ */
+function isArraySorted(arr: number[], mode: 'asc' | 'desc' = 'asc'): boolean {
+    const arrSize: number = arr.length;
+
+    for (let i:number = 0; i < arrSize - 1; i++) {
+        // Check Ascending Order In Array Elements..
+        if (arr[i] > arr[i + 1] && mode === 'asc') {
+            return false;
+
+            // Check Descending Order In Array Elements..
+        } else if (arr[i] < arr[i + 1] && mode === 'desc') {
+            return false;
+        }
+    }
+
+    return true;
+}
+
 
 // Testing the function
 const myArr1: number[] = [1, 2, 3, 4, 5];
-const myArr2: number[] = [5, 4, 3, 2, 1];
-const myArr3: number[] = [1, 2, 3, 4, 5, 6];
-const myArr4: number[] = [6, 5, 4, 3, 2, 1];
+// const myArr2: number[] = [5, 4, 3, 2, 1];
+// const myArr3: number[] = [1, 2, 3, 4, 5, 6];
+// const myArr4: number[] = [6, 5, 4, 3, 2, 1];
 
-const isSorted1: boolean = isArraySorted(myArr1);
-const isSorted2: boolean = isArraySorted(myArr2);
-const isSorted3: boolean = isArraySorted(myArr3);
-const isSorted4: boolean = isArraySorted(myArr4);
+const isSorted: boolean = isArraySorted(myArr1, 'asc');
+console.log('IS SORTED - ', isSorted);

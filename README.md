@@ -144,6 +144,10 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 - Find the Second Max/Large element -> [[ See Second Max/Large elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindSecondMax.ts)
 
+- Check if an Array is Sorted -> [[ See Check if an Array is Sorted Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40CheckSorted.ts)
+
+- Count/Map/Hash the Occurrences of an Element -> [[ See Count the Occurances Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40CountOccurance.ts)
+
 ---
 
 ### Run Our TypeScript Code with Deno (Runtime):

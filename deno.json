@@ -1,12 +1,13 @@
 {
   "denoVersion": "2.1.2",
   "tasks": {
-    "test": "deno test",
     "start:array:reverse": "deno run --watch dsa/Array/Array@Reverse.ts",
     "start:array:rotation": "deno run --watch dsa/Array/Array@Rotation.ts",
     "start:array:manipulate": "deno run --watch dsa/Array/Array@Manipulate.ts",
     "start:array:findMinMax": "deno run --watch  dsa/Array/Array@FindMinMax.ts",
     "start:array:findSecondMax": "deno run --watch dsa/Array/Array@FindSecondMax.ts",
-    "start:array:checkSorted": "deno run --watch dsa/Array/Array@CheckSorted.ts"
+    "start:array:checkSorted": "deno run --watch dsa/Array/Array@CheckSorted.ts",
+    "start:array:largeContigousSum": "deno run --watch dsa/Array/Array@LargeContigousSum.ts",
+    "start:array:countOccurance": "deno run --watch dsa/Array/Array@CountOccurance.ts"
   }
 }
