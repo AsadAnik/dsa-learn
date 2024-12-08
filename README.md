@@ -148,6 +148,8 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 - Count/Map/Hash the Occurrences of an Element -> [[ See Count the Occurances Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40CountOccurance.ts)
 
+- Remove Duplicates of an Array -> [[ See Remove Duplicates Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40RemoveDuplicates.ts)
+
 ---
 
 ### Run Our TypeScript Code with Deno (Runtime):

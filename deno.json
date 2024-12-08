@@ -8,6 +8,8 @@
     "start:array:findSecondMax": "deno run --watch dsa/Array/Array@FindSecondMax.ts",
     "start:array:checkSorted": "deno run --watch dsa/Array/Array@CheckSorted.ts",
     "start:array:largeContigousSum": "deno run --watch dsa/Array/Array@LargeContigousSum.ts",
-    "start:array:countOccurance": "deno run --watch dsa/Array/Array@CountOccurance.ts"
+    "start:array:countOccurance": "deno run --watch dsa/Array/Array@CountOccurance.ts",
+    "start:array:removeDuplicates": "deno run --watch dsa/Array/Array@RemoveDuplicates.ts",
+    "start:array:moveZeroToEnd": "deno run --watch dsa/Array/Array@MoveZeroToEnd.ts"
   }
 }
