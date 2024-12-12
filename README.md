@@ -150,6 +150,10 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 - Remove Duplicates of an Array -> [[ See Remove Duplicates Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40RemoveDuplicates.ts)
 
+- Move Zero to End of Array -> [[ See Move Zero to End Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40MoveZeroToEnd.ts)
+
+- Findout Unique Elements of Array -> [[ See Findout Unique Elements Examples · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/Array/Array%40FindOutUniqueElements.ts)
+
 ---
 
 ### Run Our TypeScript Code with Deno (Runtime):
