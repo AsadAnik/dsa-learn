@@ -4,7 +4,8 @@
  * Task: Count how many times x appears.
  * Example: [1, 2, 2, 3, 4, 2], x=2 → 3
  * Time Complexity: O(n) | Space Complexity: O(1)
- * @param arr 
+ * @param arr
+ * @param value
  */
 // region Count Occurances
 function countArrayOccurance<T>(arr: T[], value: T): number {

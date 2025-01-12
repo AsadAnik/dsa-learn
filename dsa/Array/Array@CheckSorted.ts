@@ -39,6 +39,7 @@ function isArraySorted(arr: number[], mode: 'asc' | 'desc' = 'asc'): boolean {
         }
     }
 
+
     return true;
 }
 

@@ -11,6 +11,7 @@
     "start:array:countOccurance": "deno run --watch dsa/Array/Array@CountOccurance.ts",
     "start:array:removeDuplicates": "deno run --watch dsa/Array/Array@RemoveDuplicates.ts",
     "start:array:findOutUniques": "deno run --watch dsa/Array/Array@FindOutUniqueElements.ts",
-    "start:array:moveZeroToEnd": "deno run --watch dsa/Array/Array@MoveZeroToEnd.ts"
+    "start:array:moveZeroToEnd": "deno run --watch dsa/Array/Array@MoveZeroToEnd.ts",
+    "start:string:length": "deno run --watch dsa/String/String@Length.ts"
   }
 }
