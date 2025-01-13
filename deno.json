@@ -15,6 +15,7 @@
     "start:string:length": "deno run --watch dsa/String/String@Length.ts",
     "start:string:compare": "deno run --watch dsa/String/String@Compare.ts",
     "start:string:search": "deno run --watch dsa/String/String@Search.ts",
-    "start:string:insert": "deno run --watch dsa/String/String@Insert.ts"
+    "start:string:insert": "deno run --watch dsa/String/String@Insert.ts",
+    "start:string:remove": "deno run --watch dsa/String/String@Remove.ts"
   }
 }
