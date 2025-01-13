@@ -160,6 +160,15 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 - Length of String -> [[ See Length of String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Length.ts)
 
+- Compare String -> [[ See Compare of String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Compare.ts)
+
+- Search Text String -> [[ See Search of String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Search.ts)
+
+- Insert item into any position -> [[ See Insert item any position · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Insert.ts)
+
+- Remove item into any position -> [[ See Remove item any position · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Remove.ts)
+
+
 ### Run Our TypeScript Code with Deno (Runtime):
 Deno is the fastest Runtime for TypeScript. And it supports TypeScript out of the box without any additional configuration. Just plug and play.
 ```bash

@@ -12,6 +12,9 @@
     "start:array:removeDuplicates": "deno run --watch dsa/Array/Array@RemoveDuplicates.ts",
     "start:array:findOutUniques": "deno run --watch dsa/Array/Array@FindOutUniqueElements.ts",
     "start:array:moveZeroToEnd": "deno run --watch dsa/Array/Array@MoveZeroToEnd.ts",
-    "start:string:length": "deno run --watch dsa/String/String@Length.ts"
+    "start:string:length": "deno run --watch dsa/String/String@Length.ts",
+    "start:string:compare": "deno run --watch dsa/String/String@Compare.ts",
+    "start:string:search": "deno run --watch dsa/String/String@Search.ts",
+    "start:string:insert": "deno run --watch dsa/String/String@Insert.ts"
   }
 }

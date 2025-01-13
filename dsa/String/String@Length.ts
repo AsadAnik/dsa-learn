@@ -1,5 +1,7 @@
 /**
  * String Length Checker
+ * Time Complexity: O(n)
+ * Auxiliary space: O(1)
  * @params arr (Array)
  */
 function StringLength(arr) {
