@@ -36,5 +36,5 @@ const result = insertCharacterStringBuiltInWay(myStr, 4, '@');
 console.log(`RESULT - ${result}`);
 
 // Imperative Function Call
-const result2 = insertCharacterString(myStr, 3, '!');
+const result2 = insertCharacterString(myStr, 4, '!');
 console.log(`RESULT 2 - ${result2}`);

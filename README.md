@@ -168,6 +168,15 @@ This guidline will help you to learn data structures and algorithms in a systema
 
 - Remove item into any position -> [[ See Remove item any position · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Remove.ts)
 
+- Count The Occurances of String -> [[ See Count Occurances of String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40CountOccurance.ts)
+
+- Check If Two Strings are Anagrams -> [[ See Check Strings Anagram · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40TwoAnagrams.ts)
+
+- First Non-Repeating Character -> [[ See Non-Repeating Character · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40NonRepeating.ts)
+
+- Reverse Words in a String -> [[ See Reverse String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40ReverseWords.ts)
+
+- Check if String is Palindrome -> [[ See Palindrome String · AsadAnik/dsa-learn ]](https://github.com/AsadAnik/dsa-learn/blob/main/dsa/String/String%40Palindrome.ts)
 
 ### Run Our TypeScript Code with Deno (Runtime):
 Deno is the fastest Runtime for TypeScript. And it supports TypeScript out of the box without any additional configuration. Just plug and play.

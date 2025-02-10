@@ -12,10 +12,16 @@
     "start:array:removeDuplicates": "deno run --watch dsa/Array/Array@RemoveDuplicates.ts",
     "start:array:findOutUniques": "deno run --watch dsa/Array/Array@FindOutUniqueElements.ts",
     "start:array:moveZeroToEnd": "deno run --watch dsa/Array/Array@MoveZeroToEnd.ts",
+
     "start:string:length": "deno run --watch dsa/String/String@Length.ts",
     "start:string:compare": "deno run --watch dsa/String/String@Compare.ts",
     "start:string:search": "deno run --watch dsa/String/String@Search.ts",
     "start:string:insert": "deno run --watch dsa/String/String@Insert.ts",
-    "start:string:remove": "deno run --watch dsa/String/String@Remove.ts"
+    "start:string:remove": "deno run --watch dsa/String/String@Remove.ts",
+    "start:string:countOccurance": "deno run --watch dsa/String/String@CountOccurance.ts",
+    "start:string:twoAnagrams": "deno run --watch dsa/String/String@TwoAnagrams.ts",
+    "start:string:nonRepeating": "deno run --watch dsa/String/String@NonRepeating.ts",
+    "start:string:reverseWords": "deno run --watch dsa/String/String@ReverseWords.ts",
+    "start:string:palindrome": "deno run --watch dsa/String/String@Palindrome.ts"
   }
 }

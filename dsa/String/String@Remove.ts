@@ -29,9 +29,9 @@ function removeString(myStr: string, position: number): string {
 }
 
 // Remove from any position.
-const myStr = "AsadAnik";
-const result = removeStringBultInWay(myStr, 4);
-console.log(`Result (Built-in): ${result}`);
+const myStr2 = "AsadAnik";
+const result3 = removeStringBultInWay(myStr2, 4);
+console.log(`Result (Built-in): ${result3}`);
 
-const result2 = removeString(myStr, 4);
-console.log(`Result (Own-Way): ${result2}`);
+const result4 = removeString(myStr2, 4);
+console.log(`Result (Own-Way): ${result4}`);
