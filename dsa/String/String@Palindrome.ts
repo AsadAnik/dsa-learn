@@ -34,10 +34,18 @@ function isPalindrome(myText: string): boolean {
 /**
  * Alternative approach
  * 
+ * The Built-In approach of making isPalindrome checking function
+ * This method is simple but it takes extra space O(n) for the reversed string;
+ * 
+ * Time Complexity: 
+ *  - as Same as like previous one
+ * Space Complexity: 
+ *  - takes extra space - O(n)
+ * 
  * @param myText 
  */
 function isPalindrome2(myText: string): boolean {
-    return false;
+    return myText === myText.split(' ').reverse().join('');
 }
 
 
@@ -48,4 +56,7 @@ console.log(isPalindrome("hello"));   // false
 console.log(isPalindrome("madam"));   // true
 console.log(isPalindrome("level"));   // true
 
-// 
+console.log(isPalindrome2("racercar"));
+console.log(isPalindrome2("hello"));
+console.log(isPalindrome2("madam"));
+console.log(isPalindrome2("lavel"));

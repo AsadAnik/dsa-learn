@@ -39,7 +39,7 @@ function countString(myStr: string): Record<string, number> {
  * 
  * @param myStr 
  */
-function countStringOpmitized(myStr: string): Record<string, number> {
+function countStringOptimized(myStr: string): Record<string, number> {
     let result: Record<string, number> = {};
 
     for (let char of myStr) {
@@ -61,7 +61,7 @@ function countStringOpmitized(myStr: string): Record<string, number> {
  * @param myStr 
  * @returns 
  */
-function countStringOpmitized2(myStr: string): Record<string, number> {
+function countStringOptimized2(myStr: string): Record<string, number> {
     let result: Record<string, number> = {};
 
     for (let i = 0; i < myStr.length; i++) {
@@ -80,8 +80,8 @@ const myCountInputText = "hello";
 const countResult = countString(myCountInputText);
 console.log(countResult);
 
-const countOptimizedResult = countStringOpmitized(myCountInputText);
+const countOptimizedResult = countStringOptimized(myCountInputText);
 console.log(countOptimizedResult);
 
-const countOptimizedResult2 = countStringOpmitized2(myCountInputText);
+const countOptimizedResult2 = countStringOptimized2(myCountInputText);
 console.log(countOptimizedResult2);
