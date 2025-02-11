@@ -22,6 +22,7 @@
     "start:string:twoAnagrams": "deno run --watch dsa/String/String@TwoAnagrams.ts",
     "start:string:nonRepeating": "deno run --watch dsa/String/String@NonRepeating.ts",
     "start:string:reverseWords": "deno run --watch dsa/String/String@ReverseWords.ts",
-    "start:string:palindrome": "deno run --watch dsa/String/String@Palindrome.ts"
+    "start:string:palindrome": "deno run --watch dsa/String/String@Palindrome.ts",
+    "start:string:findSubstring": "deno run --watch dsa/String/String@FindSubstring.ts"
   }
 }
