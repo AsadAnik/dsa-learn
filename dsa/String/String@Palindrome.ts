@@ -17,6 +17,7 @@
  * @params text {String}
  * @params myStr {String}
  */
+// region Two Pointers
 function isPalindrome(myText: string): boolean {
     let left: number = 0, right: number = myText.length - 1;
 

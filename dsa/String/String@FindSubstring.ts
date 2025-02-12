@@ -16,6 +16,7 @@
  *
  * @param s
  */
+// region Brute Force
 function findAllSubstringsBruteForce(s: string): string[] {
     let subStringsArr: string[] = [];
 
