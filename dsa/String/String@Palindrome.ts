@@ -19,7 +19,7 @@
  */
 // region Two Pointers
 function isPalindrome(myText: string): boolean {
-    let left: number = 0, right: number = myText.length - 1;
+    let left: number = 0, right: number = myText.toLowerCase().length - 1;
 
     while (left < right) {
         if (myText[left] !== myText[right]) {

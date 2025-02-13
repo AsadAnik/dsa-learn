@@ -24,6 +24,7 @@
     "start:string:reverseWords": "deno run --watch dsa/String/String@ReverseWords.ts",
     "start:string:palindrome": "deno run --watch dsa/String/String@Palindrome.ts",
     "start:string:findSubstring": "deno run --watch dsa/String/String@FindSubstring.ts",
-    "start:string:longSubstring": "deno run --watch dsa/String/String@LongSubstring.ts"
+    "start:string:longSubstring": "deno run --watch dsa/String/String@LongSubstring.ts",
+    "start:string:compression": "deno run --watch dsa/String/String@Compression.ts"
   }
 }
