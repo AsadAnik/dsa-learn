@@ -11,6 +11,7 @@
  * 
  * @params myStr {String}
  */
+// region Brute Force
 function countString(myStr: string): Record<string, number> {
     let result: Record<string, number> = {};
 
@@ -39,6 +40,7 @@ function countString(myStr: string): Record<string, number> {
  * 
  * @param myStr 
  */
+// region By Hash-Map
 function countStringOptimized(myStr: string): Record<string, number> {
     let result: Record<string, number> = {};
 
@@ -61,6 +63,7 @@ function countStringOptimized(myStr: string): Record<string, number> {
  * @param myStr 
  * @returns 
  */
+// region By Hash-Map
 function countStringOptimized2(myStr: string): Record<string, number> {
     let result: Record<string, number> = {};
 
