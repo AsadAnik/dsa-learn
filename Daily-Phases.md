@@ -1,4 +1,5 @@
 ### **🔥 Turing Coding Interview DSA Plan - Full Phases 🔥**
+✅ DONE | 🚀 Ongoing | 🔜 Upcoming
 
 🚀 **Goal:** Crack the **Turing remote job coding interviews** with **DSA-focused problem-solving**.
 
@@ -6,159 +7,165 @@
 
 ---
 
-## **🟢 Phase 1: Strings - Basic Problems (Done ✅)**
+## **🟢 Phase 1: Strings - Basic Problems**
 
-**(Focus: Fundamental String Manipulation & Searching)**
+(Focus: Fundamental String Manipulation & Searching)
 
-1. ✅ **Count Characters** – Count occurrences of each character in a string.
-2. ✅ **Check if Two Strings are Anagrams** – Verify if two strings contain the same letters.
-3. ✅ **Reverse a String** – Without using `.reverse()`.
-4. ✅ **Check if a String is a Palindrome** – Reads the same forward and backward.
-5. ✅ **Find the First Non-Repeating Character** – Identify the first unique character.
+✅ Count Characters
+
+✅ Check if Two Strings are Anagrams
+
+✅ Reverse a String
+
+✅ Check if a String is a Palindrome
+
+✅ Find the First Non-Repeating Character
 
 ---
 
-## **🟡 Phase 2: Strings - Intermediate Problems (Upcoming 🚀)**
+## **🟡 Phase 2: Strings - Intermediate (Sliding Window, Hash Maps)**
 
-**(Focus: Advanced String Manipulation & Searching Patterns)**
+(Focus: Advanced String Manipulation & Pattern Searching)
 
-6. 🔜 **Longest Substring Without Repeating Characters** (Sliding Window)
+✅ Longest Substring Without Repeating Characters (Sliding Window)
 
-7. 🔜 **Find All Substrings of a String** (Brute force & Optimized)
+✅ Find All Substrings of a String (Brute force & Optimized)
 
-8. 🔜 **String Compression (Run-Length Encoding)**
+✅ String Compression (Run-Length Encoding)
 
-9. 🔜 **Check if One String is a Rotation of Another**
+🔜 Check if One String is a Rotation of Another
 
-10. 🔜 **Group Anagrams Together**
+🔜 Group Anagrams Together
 
 ---
 
 ## **🟠 Phase 3: Arrays - Basic & Intermediate**
 
-**(Focus: Sorting, Searching, Two Pointers, Sliding Window)**
+(Focus: Sorting, Searching, Two Pointers, Sliding Window)
 
-11. 🔜 **Remove Duplicates from a Sorted Array**
+🔜 Remove Duplicates from a Sorted Array
 
-12. 🔜 **Find the Missing Number in an Array**
+🔜 Find the Missing Number in an Array
 
-13. 🔜 **Find the Intersection of Two Arrays**
+🔜 Find the Intersection of Two Arrays
 
-14. 🔜 **Find Pairs That Sum to a Target (Two Sum Problem)**
+🔜 Find Pairs That Sum to a Target (Two Sum Problem)
 
-15. 🔜 **Find the Longest Consecutive Sequence**
-
----
-
-## **🟡 Phase 4: Arrays - Advanced & Optimized Techniques**
-
-**(Focus: Two Pointers, Sliding Window, Hash Maps, Prefix Sum, Kadane’s Algorithm)**
-
-16. 🔜 **Maximum Subarray Sum (Kadane’s Algorithm)**
-
-17. 🔜 **Find the Subarray with a Given Sum (Sliding Window)**
-
-18. 🔜 **Product of Array Except Self**
-
-19. 🔜 **Find All Triplets that Sum to Zero (3 Sum Problem)**
-
-20. 🔜 **Find the Median of Two Sorted Arrays (Binary Search on Arrays)**
+🔜 Find the Longest Consecutive Sequence
 
 ---
 
-## **🔵 Phase 5: Recursion & Backtracking**
+## **🟡 Phase 4: Arrays - Advanced & Optimized**
 
-**(Focus: Divide & Conquer, Permutations, Combinations, Subset Problems)**
+(Focus: Two Pointers, Sliding Window, Hash Maps, Kadane’s Algorithm)
 
-21. 🔜 **Generate All Subsequences of a String**
+🔜 Maximum Subarray Sum (Kadane’s Algorithm)
 
-22. 🔜 **Find All Permutations of a String or Array**
+🔜 Find the Subarray with a Given Sum (Sliding Window)
 
-23. 🔜 **Sudoku Solver (Backtracking)**
+🔜 Product of Array Except Self
 
-24. 🔜 **N-Queens Problem**
+🔜 Find All Triplets that Sum to Zero (3 Sum Problem)
 
-25. 🔜 **Word Search in a Grid (DFS + Backtracking)**
+🔜 Find the Median of Two Sorted Arrays (Binary Search)
+
+---
+
+## **🟠 Phase 5: Stack & Queue (Common in Interviews)**
+
+(Focus: Stack-based Validations, Monotonic Stack, Queue Implementations)
+
+🔜 Valid Parentheses (Stack-Based Problem)
+
+🔜 Implement a Queue using Stacks
+
+🔜 Next Greater Element (Monotonic Stack)
+
+🔜 LRU Cache Implementation (Queue + HashMap)
+
+🔜 Sliding Window Maximum (Deque)
 
 ---
 
 ## **🟣 Phase 6: Linked Lists (Singly & Doubly)**
 
-**(Focus: Fast & Slow Pointers, Linked List Operations, Cycles Detection)**
+(Focus: Fast & Slow Pointers, Linked List Operations, Cycle Detection)
 
-26. 🔜 **Reverse a Linked List**
+🔜 Reverse a Linked List
 
-27. 🔜 **Find the Middle of a Linked List**
+🔜 Find the Middle of a Linked List
 
-28. 🔜 **Detect a Cycle in a Linked List (Floyd’s Cycle Detection)**
+🔜 Detect a Cycle in a Linked List (Floyd’s Cycle Detection)
 
-29. 🔜 **Merge Two Sorted Linked Lists**
+🔜 Merge Two Sorted Linked Lists
 
-30. 🔜 **Remove Nth Node from the End**
-
----
-
-## **🟢 Phase 7: Trees (Binary Trees & BSTs)**
-
-**(Focus: DFS, BFS, Recursion, Tree Traversals, Lowest Common Ancestor)**
-
-31. 🔜 **Inorder, Preorder, and Postorder Traversal (Recursive & Iterative)**
-
-32. 🔜 **Level Order Traversal (BFS for Trees)**
-
-33. 🔜 **Check if a Binary Tree is Balanced**
-
-34. 🔜 **Find the Lowest Common Ancestor in a BST**
-
-35. 🔜 **Serialize and Deserialize a Binary Tree**
+🔜 Remove Nth Node from the End
 
 ---
 
-## **🟠 Phase 8: Graphs (BFS, DFS, Shortest Paths, Cycle Detection)**
+## **🔵 Phase 7: Recursion & Backtracking**
 
-**(Focus: Graph Traversal, Connectivity, Shortest Paths, Topological Sorting)**
+(Focus: Divide & Conquer, Permutations, Subset Problems)
 
-36. 🔜 **Graph Traversal using BFS & DFS**
+🔜 Generate All Subsequences of a String
 
-37. 🔜 **Detect a Cycle in a Directed Graph (Topological Sorting)**
+🔜 Find All Permutations of a String or Array
 
-38. 🔜 **Find Shortest Path in an Unweighted Graph (BFS)**
-
-39. 🔜 **Dijkstra’s Algorithm for Shortest Path**
-
-40. 🔜 **Connected Components in a Graph**
+🔜 Word Search in a Grid (DFS + Backtracking)
 
 ---
 
-## **🔴 Phase 9: Dynamic Programming (DP Fundamentals & Advanced)**
+## **🟢 Phase 8: Trees (Binary Trees & BSTs)**
 
-**(Focus: Recursion to DP Conversion, Memoization, 1D/2D DP Problems)**
+(Focus: DFS, BFS, Recursion, Tree Traversals, Lowest Common Ancestor)
 
-41. 🔜 **Fibonacci Sequence (Memoization & Tabulation)**
+🔜 Inorder, Preorder, and Postorder Traversal (Recursive & Iterative)
 
-42. 🔜 **Longest Common Subsequence (LCS)**
+🔜 Level Order Traversal (BFS for Trees)
 
-43. 🔜 **0/1 Knapsack Problem**
+🔜 Check if a Binary Tree is Balanced
 
-44. 🔜 **Coin Change Problem**
+🔜 Find the Lowest Common Ancestor in a BST
 
-45. 🔜 **Edit Distance (Convert String A to B)**
+---
+
+## **🟠 Phase 9: Graphs (BFS, DFS, Shortest Paths, Cycle Detection)**
+
+(Focus: Graph Traversal, Connectivity, Shortest Paths)
+
+🔜 Graph Traversal using BFS & DFS
+
+🔜 Detect a Cycle in a Directed Graph
+
+🔜 Find Shortest Path in an Unweighted Graph
+
+🔜 Connected Components in a Graph
+
+---
+
+## **🔴 Phase 10: Dynamic Programming (Final Phase)**
+
+(Focus: Recursion to DP Conversion, Memoization, 1D/2D DP Problems)
+
+🔜 Fibonacci Sequence (Memoization & Tabulation)
+
+🔜 Longest Common Subsequence (LCS)
+
+🔜 Coin Change Problem
 
 ---
 
 ### **🔥 Final Phase: Mock Interviews & Turing-Level Practice**
 
-🚀 **Mock Interviews:** Solve random Turing-level problems daily under **time constraints** (45-60 mins).
+🚀 **Solve random HackerRank Easy-Medium problems daily under time constraints (45-60 mins).**
 
-📈 **System Design Basics** (Optional, if required for Full-Stack roles).
-
-🎯 **Final Focus:** Strengthen **Graph, DP, Recursion**, and **Time Complexity Analysis** for Turing.
+🚀 **Strengthen Graphs, DP, Recursion & Time Complexity Analysis.**
 
 ---
 
 ### **⏳ Estimated Timeline**
 
-- **Phase 1-2:** **(Strings) ✅ - Done / Ongoing**
+- **Phase 1-2:** **(Strings)**
 - **Phase 3-4:** **(Arrays)**
 - **Phase 5:** **(Recursion & Backtracking)**
 - **Phase 6:** **(Linked Lists)**
@@ -183,3 +190,9 @@
 ✅ **By the time we finish all phases, you will be fully prepared for Turing DSA interviews!**
 
 🔥 **Your dream remote job is just practice & consistency away!**
+
+---
+
+Let’s **continue tomorrow morning** with **Phase 2 (Intermediate String Problems)**!
+
+💪🔥 **See you then!** 🚀

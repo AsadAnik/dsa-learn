@@ -88,7 +88,7 @@ console.log(longestUniqueSubstringBruteForce("dvdf"));      // Output: 3, "vdf"
 
 console.log('\n');
 
-console.log(longesetUniqueSubstringSlidingWindow("abcabcbb"));  // Output: "abc"
-console.log(longesetUniqueSubstringSlidingWindow("bbbbb"));     // Output: "b"
-console.log(longesetUniqueSubstringSlidingWindow("pwwkew"));    // Output: "wke"
-console.log(longesetUniqueSubstringSlidingWindow("dvdf"));      // Output: "vdf"
+console.log(longesetUniqueSubstringSlidingWindow("abcabcbb"));  // Output: 3, "abc"
+console.log(longesetUniqueSubstringSlidingWindow("bbbbb"));     // Output: 1, "b"
+console.log(longesetUniqueSubstringSlidingWindow("pwwkew"));    // Output: 3, "wke"
+console.log(longesetUniqueSubstringSlidingWindow("dvdf"));      // Output: 3, "vdf"
