@@ -30,6 +30,7 @@ function checkAnagrams(str1: string, str2: string): boolean {
     }
 }
 
+
 /**
  * Improvements & Optimized Code
  *  1. No need for an extra variable -> Directly apply .toLowercase().trim();
@@ -49,6 +50,7 @@ function checkAnagrams2(str1: string, str2: string): boolean {
     return str1.toLocaleLowerCase().trim().split('').sort().join('') ===
         str2.toLocaleLowerCase().trim().split('').sort().join('');
 }
+
 
 /**
  * Optimized Solution

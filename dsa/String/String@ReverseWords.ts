@@ -54,6 +54,26 @@ function reverseWords3(myWords: string): string {
     return words.join(' ');
 }
 
+/**
+ * Another way of reverse the string.. By using a string builder.
+ * Performance is as same as like Previous One.
+ * 
+ * @param myWords 
+ */
+function reverseWords4(myWords: string) {
+    let myWordsArr = myWords.trim().split(' ');
+    let end = myWordsArr.length - 1;
+    let reversedWords: string = '';
+
+    for (let i = end; i >= 0; i--) {
+        if (myWordsArr[i] !== '') {
+            reversedWords += myWordsArr[i] + ' ';
+        }
+    }
+
+    return reversedWords;
+}
+
 
 // Calling function
 console.log(reverseWords("hello world")); // "world hello"
@@ -75,3 +95,10 @@ console.log(reverseWords3("  Turing   coding interview  ")); // "interview codin
 console.log(reverseWords3("  a    b   c  ")); // "c b a"
 console.log(reverseWords3("singleWord")); // "singleWord"
 console.log(reverseWords3("   ")); // ""
+
+
+console.log(reverseWords4("hello world")); // "world hello"
+console.log(reverseWords4("  Turing   coding interview  ")); // "interview coding Turing"
+console.log(reverseWords4("  a    b   c  ")); // "c b a"
+console.log(reverseWords4("singleWord")); // "singleWord"
+console.log(reverseWords4("   ")); // ""
